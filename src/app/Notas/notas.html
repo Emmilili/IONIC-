@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Notas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngFor="let item of materias">
+    <p>Materia: {{item.materia}}</p>
+    <br />
+    <p>Nota: {{item.nota}}</p>
+    
+  </div>
+
+</ion-content>

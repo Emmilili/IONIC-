@@ -1,0 +1,7 @@
+{
+  "name": "última Practica",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
